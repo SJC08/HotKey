@@ -1,0 +1,2 @@
+Register hotkeys easily!
+
