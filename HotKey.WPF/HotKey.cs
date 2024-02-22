@@ -9,27 +9,22 @@ namespace AS.HotKey.Wpf
 
         public HotKey() { }
 
-        public HotKey(Key key, ModifierKeys modifier)
+        public HotKey(Key key, Modifiers modifier, bool register = true)
         {
             Key = key;
             Modifier = modifier;
+            if (register) Register();
         }
 
-        public HotKey(Key key, ModifierKeys modifier, HotKeyCallback callback) : this(key, modifier)
+        public HotKey(Key key, Modifiers modifier, EventHandler callback, bool register = true) : this(key, modifier, register)
         {
             Pressed += callback;
         }
 
-        public Key Key
+        public new Key Key
         {
-            get => KeyInterop.KeyFromVirtualKey((int)KeyCode);
-            init => KeyCode = (uint)KeyInterop.VirtualKeyFromKey(value);
-        }
-
-        public ModifierKeys Modifier
-        {
-            get => (ModifierKeys)ModifierCode;
-            init => ModifierCode = (uint)value;
+            get => KeyInterop.KeyFromVirtualKey((int)base.Key);
+            init => base.Key = (uint)KeyInterop.VirtualKeyFromKey(value);
         }
 
         private static void HotKeyHandler(ref MSG msg, ref bool handled)
