@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey", "HotKey\HotKey.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey.WinForms", "HotKey.WinForms\HotKey.WinForms.csproj", "{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey.Foo", "HotKey.Foo\HotKey.Foo.csproj", "{B2F041EC-7353-433A-936E-84246C02A2D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey.Wpf", "HotKey.Wpf\HotKey.Wpf.csproj", "{CBDE975C-A6EC-4DC9-9394-68902DC84156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2F041EC-7353-433A-936E-84246C02A2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2F041EC-7353-433A-936E-84246C02A2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2F041EC-7353-433A-936E-84246C02A2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2F041EC-7353-433A-936E-84246C02A2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDE975C-A6EC-4DC9-9394-68902DC84156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDE975C-A6EC-4DC9-9394-68902DC84156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDE975C-A6EC-4DC9-9394-68902DC84156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDE975C-A6EC-4DC9-9394-68902DC84156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
