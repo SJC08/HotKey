@@ -5,9 +5,7 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey", "HotKey\HotKey.csproj", "{2D84EA4F-D9EA-4B4C-9AA8-A4BAECA24FC8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey.Wpf", "HotKey.Wpf\HotKey.Wpf.csproj", "{780F9CB6-B6A3-470D-A113-C680106D2E77}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotKey.WinForms", "HotKey.WinForms\HotKey.WinForms.csproj", "{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotKey.WinForms", "HotKey.WinForms\HotKey.WinForms.csproj", "{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{2D84EA4F-D9EA-4B4C-9AA8-A4BAECA24FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D84EA4F-D9EA-4B4C-9AA8-A4BAECA24FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D84EA4F-D9EA-4B4C-9AA8-A4BAECA24FC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{780F9CB6-B6A3-470D-A113-C680106D2E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{780F9CB6-B6A3-470D-A113-C680106D2E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{780F9CB6-B6A3-470D-A113-C680106D2E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{780F9CB6-B6A3-470D-A113-C680106D2E77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444E971C-15FD-4D83-9C0B-BCEB24BD0C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
