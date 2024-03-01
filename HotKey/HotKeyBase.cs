@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace AS.HotKey
+namespace Asjc.HotKey
 {
     public abstract class HotKeyBase
     {

@@ -1,4 +1,4 @@
-﻿namespace AS.HotKey.WinForms
+﻿namespace Asjc.HotKey.WinForms
 {
     public class HotKey : HotKeyBase
     {

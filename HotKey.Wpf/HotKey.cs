@@ -1,7 +1,7 @@
 ﻿using System.Windows.Input;
 using System.Windows.Interop;
 
-namespace AS.HotKey.Wpf
+namespace Asjc.HotKey.Wpf
 {
     public class HotKey : HotKeyBase
     {
