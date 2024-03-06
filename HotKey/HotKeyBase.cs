@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices;
+using System.Text.Json.Serialization;
 
 namespace Asjc.HotKey
 {
@@ -14,6 +15,7 @@ namespace Asjc.HotKey
 
         private static readonly Dictionary<int, HotKeyBase> map = [];
 
+        [JsonIgnore]
         public int Id => (int)Modifier << 16 | (int)Key;
 
         public uint Key { get; init; }
@@ -45,16 +47,5 @@ namespace Asjc.HotKey
             }
             return false;
         }
-    }
-
-    [Flags]
-    public enum Modifiers : uint
-    {
-        None = 0x0000,
-        Alt = 0x0001,
-        Ctrl = 0x0002,
-        Shift = 0x0004,
-        Win = 0x0008,
-        NoRepeat = 0x4000
     }
 }

@@ -1,7 +1,4 @@
 Register hotkeys easily!
-
-**Use `Asjc.*` instead of `AS.*` and `AsUtils.*`!**
-
 ## Getting Started
 
 First, install `AS.HotKey.Wpf` or `AS.HotKey.WinForms`, and then import the corresponding namespace.
