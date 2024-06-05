@@ -22,16 +22,16 @@ namespace Asjc.HotKey
 
         public Modifiers Modifier { get; init; }
 
-        public event EventHandler? Pressed;
+        public event Action<HotKeyBase>? Pressed;
 
-        public bool Register()
+        public virtual bool Register()
         {
             bool result = RegisterHotKey(IntPtr.Zero, Id, Modifier, Key);
             if (result) map.Add(Id, this);
             return result;
         }
 
-        public bool Unregister()
+        public virtual bool Unregister()
         {
             bool result = UnregisterHotKey(IntPtr.Zero, Id);
             if (result) map.Remove(Id);
@@ -42,7 +42,7 @@ namespace Asjc.HotKey
         {
             if (map.TryGetValue(id, out var hotKey))
             {
-                hotKey.Pressed?.Invoke(hotKey,EventArgs.Empty);
+                hotKey.Pressed?.Invoke(hotKey);
                 return true;
             }
             return false;

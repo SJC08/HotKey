@@ -16,7 +16,7 @@ namespace Asjc.HotKey.Wpf
             if (register) Register();
         }
 
-        public HotKey(Key key, Modifiers modifier, EventHandler callback, bool register = true) : this(key, modifier, register)
+        public HotKey(Key key, Modifiers modifier, Action<HotKeyBase> callback, bool register = true) : this(key, modifier, register)
         {
             Pressed += callback;
         }

@@ -13,7 +13,7 @@
             if (register) Register();
         }
 
-        public HotKey(Keys key, Modifiers modifier, EventHandler callback, bool register = true) : this(key, modifier, register)
+        public HotKey(Keys key, Modifiers modifier, Action<HotKeyBase> callback, bool register = true) : this(key, modifier, register)
         {
             Pressed += callback;
         }

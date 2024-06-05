@@ -6,6 +6,6 @@ First, install `AS.HotKey.Wpf` or `AS.HotKey.WinForms`, and then import the corr
 Quickly register hotkeys with just **one line** of code, such as:
 
 ```csharp
-new HotKey(Key.Space, Modifiers.Ctrl, (_, _) => MessageBox.Show("Ctrl + Space"));
+new HotKey(Key.Space, Modifiers.Ctrl, _ => MessageBox.Show("Ctrl + Space"));
 ```
 
