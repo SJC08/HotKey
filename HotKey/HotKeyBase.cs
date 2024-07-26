@@ -3,15 +3,17 @@ using System.Text.Json.Serialization;
 
 namespace Asjc.HotKey
 {
-    public abstract class HotKeyBase
+    public abstract partial class HotKeyBase
     {
         protected const int WM_HOTKEY = 0x0312;
 
-        [DllImport("user32.dll")]
-        private static extern bool RegisterHotKey(IntPtr hWnd, int id, Modifiers fsModifiers, uint vk);
+        [LibraryImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static partial bool RegisterHotKey(IntPtr hWnd, int id, Modifiers fsModifiers, uint vk);
 
-        [DllImport("user32.dll")]
-        private static extern bool UnregisterHotKey(IntPtr hWnd, int id);
+        [LibraryImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        private static partial bool UnregisterHotKey(IntPtr hWnd, int id);
 
         private static readonly Dictionary<int, HotKeyBase> map = [];
 
