@@ -1,8 +1,8 @@
 # HotKey
 
-[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey)](https://www.nuget.org/packages/Asjc.Collections.HotKey/)
-[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey.Wpf)](https://www.nuget.org/packages/Asjc.Collections.HotKey.Wpf/)
-[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey.WinForms)](https://www.nuget.org/packages/Asjc.Collections.HotKey.WinForms/)
+[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey?logo=nuget&label=Asjc.HotKey)](https://www.nuget.org/packages/Asjc.Collections.HotKey/)
+[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey.Wpf?logo=nuget&label=Asjc.HotKey.Wpf)](https://www.nuget.org/packages/Asjc.Collections.HotKey.Wpf/)
+[![NuGet](https://img.shields.io/nuget/v/Asjc.HotKey.WinForms?logo=nuget&label=Asjc.HotKey.WinForms)](https://www.nuget.org/packages/Asjc.Collections.HotKey.WinForms/)
 
 Register hotkeys easily!
 
