@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Description>Register hotkeys easily</Description>
+    <Authors>AlexSJC</Authors>
+    <Description>Register hotkeys easily.</Description>
+    <Copyright>Copyright © $(Authors) $([System.DateTime]::Now.Year)</Copyright>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/SJC08/HotKey</RepositoryUrl>
